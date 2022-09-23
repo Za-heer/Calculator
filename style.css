@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body{
+  background-color: silver;
+}
+.calculator {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  height: 590px;
+  width: 350px;
+  margin: auto;
+  border-radius: 10px;
+}
+.input {
+  text-align: right;
+  font-size: 40px;  
+  /* padding: 85px 89px; */
+  width: 100%;
+  height: 30%;
+  box-shadow: inset 0px 0px 25px rgba(231, 225, 229, 0.3);
+  color: white;
+}
+.calculator .keyboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+button {
+  padding: 20px;
+  margin: 3px;
+  height: 75px;
+  width: 75px;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 30px;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  transform: translateY(-5px);
+}
+.keyboard .equal {
+  padding-left: 75px;
+  padding-right: 75px;
+  border-radius: 50px;
+  box-shadow: 0px 8px 15px rgba(190, 183, 187, 0.3);
+  background-color: #e6b325;
+}
+.keyboard .number {
+  color: white;
+  background-color: #413f42;
+  box-shadow: 0px 8px 15px rgba(190, 183, 187, 0.3);
+  text-align: center;
+}
+.keyboard .operator {
+  box-shadow: 0px 8px 15px rgba(190, 183, 187, 0.3);
+  background-color: #e6b325;
+}
+.keyboard .allClear {
+  background-color: silver;
+  box-shadow: 0px 8px 15px rgba(190, 183, 187, 0.3);
+}
+.keyboard .clear {
+  background-color: silver;
+  box-shadow: 0px 8px 15px rgba(190, 183, 187, 0.3);
+}
+.keyboard .remain {
+  background-color: silver;
+  box-shadow: 0px 8px 15px rgba(190, 183, 187, 0.3);
+}
